@@ -1,2 +1,2 @@
 #!/bin/bash
-mktemp -d | echo "Best School" > /dev/null
+echo "Best School" > "$(mktemp -d "*\'\"Best School\"\'\*$\?\*\*\*\*\*:)")/best_school.txt"
