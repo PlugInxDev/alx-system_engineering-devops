@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Best School" > "$(mktemp -d "*\'\"Best School\"\'\*$\?\*\*\*\*\*:)")/best_school.txt"
+echo -e 'Best School\n' > '\*\\'"Best School"\'\\*$\?\*\*\*\*\*:)
