@@ -1,4 +1,2 @@
 #!/bin/bash
-while read -n 1 -d '\n' line; do
-    echo "$line"
-done
+cat -n | cut -b 6- | grep ^[13579] | cut -f2
