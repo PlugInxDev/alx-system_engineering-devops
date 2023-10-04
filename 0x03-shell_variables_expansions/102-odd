@@ -1,2 +1,4 @@
 #!/bin/bash
-while read -r line; do echo "$line"; read -r line; done < /dev/tty
+while read -n 1 -d '\n' line; do
+    echo "$line"
+done
